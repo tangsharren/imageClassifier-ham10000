@@ -73,21 +73,21 @@ Dropout
 AdamW
  - Weight Decay
 > [1e-2](https://huggingface.co/sharren/vit-weight-decay-1e-2)
-			 - [1e-3](https://huggingface.co/sharren/vit-weight-decay-1e-3)
-			 - [1e-4](https://huggingface.co/sharren/vit-weight-decay-1e-4)
-			 - [1e-5](https://huggingface.co/sharren/vit-weight-decay-1e-5)
+			> [1e-3](https://huggingface.co/sharren/vit-weight-decay-1e-3)
+			> [1e-4](https://huggingface.co/sharren/vit-weight-decay-1e-4)
+			> [1e-5](https://huggingface.co/sharren/vit-weight-decay-1e-5)
  - Beta1
-			 - [0.85](https://huggingface.co/sharren/vit-beta1-0.85)
-			 -  [0.88](https://huggingface.co/sharren/vit-beta1-0.88)
-			 - [0.95](https://huggingface.co/sharren/vit-beta1-0.95)
+			 > [0.85](https://huggingface.co/sharren/vit-beta1-0.85)
+			 >  [0.88](https://huggingface.co/sharren/vit-beta1-0.88)
+			 > [0.95](https://huggingface.co/sharren/vit-beta1-0.95)
  - Beta2
-			 - [0.99](https://huggingface.co/sharren/vit-beta2-0.99)
-			 - [0.995](https://huggingface.co/sharren/vit-beta2-0.995)
-			 -  [0.9995](https://huggingface.co/sharren/vit-beta2-0.9995)
+			 > [0.99](https://huggingface.co/sharren/vit-beta2-0.99)
+			 > [0.995](https://huggingface.co/sharren/vit-beta2-0.995)
+			 >  [0.9995](https://huggingface.co/sharren/vit-beta2-0.9995)
  - Epsilon 
-			- [1e-9](https://huggingface.co/sharren/vit-epsilon-1e-9)
-			- [5e-9](https://huggingface.co/sharren/vit-epsilon-5e-9)
-			- [1e-7](https://huggingface.co/sharren/vit-epsilon-1e-7)
+			> [1e-9](https://huggingface.co/sharren/vit-epsilon-1e-9)
+			> [5e-9](https://huggingface.co/sharren/vit-epsilon-5e-9)
+			> [1e-7](https://huggingface.co/sharren/vit-epsilon-1e-7)
 
    
 ## Folder structure
