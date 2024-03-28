@@ -2,12 +2,10 @@
 
 Dataset used: [HAM10000](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T)
 
-Conducted 27 experiments to determine the optimal settings (e.g., learning rate, augmentation, weight decay rate, dropout rate, etc.) for the ViT model. 
+After conducting 27 experiments to fine-tune various settings such as learning rate, augmentation techniques, weight decay rate, dropout rate, among others, the optimal configurations were identified for the Vision Transformer (ViT) model.
 
-Optimal settings identified were applied to train ResNet50 and EfficientNetB7 models.
+These optimal settings were then applied to train both ResNet50 and EfficientNetB7 models. Following the training process, the performance of all three models was rigorously evaluated to determine the most effective one.
 
-The performance of the 3 models is evaluated to identify the best model. 
-
-The best model, ViT, is then used to be deployed into a Gradio app hosted on hugging face space.
+Upon thorough assessment, it was found that the ViT model outperformed the others. Consequently, the ViT model was selected for deployment in a Gradio app, hosted on the Hugging Face platform.
 
 [Gradio App](https://huggingface.co/spaces/sharren/skin-classification)
