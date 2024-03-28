@@ -8,4 +8,8 @@ These optimal settings were then applied to train both ResNet50 and EfficientNet
 
 Upon thorough assessment, it was found that the ViT model outperformed the others. Consequently, the ViT model was selected for deployment in a Gradio app, hosted on the Hugging Face platform.
 
-[Gradio App](https://huggingface.co/spaces/sharren/skin-classification)
+Access the Gradio App in 
+- [🤗 spaces](https://huggingface.co/spaces/sharren/skin-classification) or
+- [Google Colab](https://colab.research.google.com/drive/1xRMiu9KqZvdnwdIZ_NYszRbgAt4I7-as?usp=sharing) or
+- Download and run [Skin Cancer Classifier Gradio App.ipynb](https://github.com/tangsharren/imageClassifier-ham10000/blob/main/Skin%20Cancer%20Classifier%20Gradio%20App.ipynb) in this repo 
+
