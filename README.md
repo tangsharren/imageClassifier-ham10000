@@ -6,7 +6,7 @@ After conducting 27 experiments to fine-tune various settings such as learning r
 
 These optimal settings were then applied to train both ResNet50 and EfficientNetB7 models. Following the training process, the performance of all three models was evaluated to determine the most effective one.
 
-Upon thorough assessment, it was found that the ViT model outperformed the others(. Consequently, the ViT model was selected for deployment in a Gradio app, hosted on the Hugging Face platform.
+Upon thorough assessment, it was found that the ViT model outperformed the others. Consequently, the ViT model was selected for deployment in a Gradio app, hosted on the Hugging Face platform.
 
 ## Model Performance Summary
 |Model     |Accuracy    |Precision|Recall |F1          |
