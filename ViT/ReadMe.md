@@ -1,3 +1,4 @@
+# Vision Transformer Model (ViT)
 The ViT model was trained using the Hugging Face platform with the PyTorch framework, leveraging optimized settings identified from previous experiments with ViT models.
 
 The best model configuration includes:
