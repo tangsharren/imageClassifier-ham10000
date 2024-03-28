@@ -42,6 +42,54 @@ Experiment Plan:
 
 ***Early stopping** is employed: Stop training if there is no improvement in the evaluation metric (in this case, a decrease in validation loss) for 10 evaluation steps.*
 
+
+## Hugging Face Model Hub
+Access the model card and insightful training metrics for each trained model on the Hugging Face Hub by clicking the hyperlink provided below:
+
+Learning Rate
+- [0.0001](https://huggingface.co/sharren/vit-lr-0.0001/tree/main)
+- [0.001](https://huggingface.co/sharren/vit-lr-0.001/tree/main)
+- [0.01](https://huggingface.co/sharren/vit-lr-0.01/tree/main)
+
+Learning Rate Schedulers
+- [Cosine with Warmup](https://huggingface.co/sharren/vit-lr-cosine-warmup/tree/main)
+- [Cosine with Restarts ](https://huggingface.co/sharren/vit-lr-cosine-restarts/tree/main)
+- [Reduce LR on Plateau ](https://huggingface.co/sharren/vit-lr-reduce-plateau/tree/main)
+- [Step](https://huggingface.co/sharren/vit-lr-step/tree/main)
+
+Cleaned Dataset
+- [Removed Hair](https://huggingface.co/sharren/vit-ds-processed)
+
+Addressing Data Imbalance
+- [Data Augmentation](https://huggingface.co/sharren/vit-augmentation)
+- [Balanced Class Weighting](https://huggingface.co/sharren/vit-class-weight)
+
+Dropout 
+- [0.2](https://huggingface.co/sharren/vit-dropout-0.2)
+- [0.3](https://huggingface.co/sharren/vit-dropout-0.3)
+- [0.4](https://huggingface.co/sharren/vit-dropout-0.4)
+-  [0.5](https://huggingface.co/sharren/vit-dropout-0.5)
+
+AdamW
+ - Weight Decay
+> [1e-2](https://huggingface.co/sharren/vit-weight-decay-1e-2)
+			 - [1e-3](https://huggingface.co/sharren/vit-weight-decay-1e-3)
+			 - [1e-4](https://huggingface.co/sharren/vit-weight-decay-1e-4)
+			 - [1e-5](https://huggingface.co/sharren/vit-weight-decay-1e-5)
+ - Beta1
+			 - [0.85](https://huggingface.co/sharren/vit-beta1-0.85)
+			 -  [0.88](https://huggingface.co/sharren/vit-beta1-0.88)
+			 - [0.95](https://huggingface.co/sharren/vit-beta1-0.95)
+ - Beta2
+			 - [0.99](https://huggingface.co/sharren/vit-beta2-0.99)
+			 - [0.995](https://huggingface.co/sharren/vit-beta2-0.995)
+			 -  [0.9995](https://huggingface.co/sharren/vit-beta2-0.9995)
+ - Epsilon 
+			- [1e-9](https://huggingface.co/sharren/vit-epsilon-1e-9)
+			- [5e-9](https://huggingface.co/sharren/vit-epsilon-5e-9)
+			- [1e-7](https://huggingface.co/sharren/vit-epsilon-1e-7)
+
+   
 ## Folder structure
 ```bash
 1. LR & Scheduler Experiment/
@@ -91,49 +139,3 @@ Experiment Plan:
 	        - 5e-9 epsilon_ExptOverfit.ipynb
 	        - 1e-7 epsilon_ExptOverfit.ipynb
 ```
-
-## Hugging Face Model Hub
-Access the model card and insightful training metrics for each trained model on the Hugging Face Hub by clicking the hyperlink provided below:
-
-Learning Rate
-- [0.0001](https://huggingface.co/sharren/vit-lr-0.0001/tree/main)
-- [0.001](https://huggingface.co/sharren/vit-lr-0.001/tree/main)
-- [0.01](https://huggingface.co/sharren/vit-lr-0.01/tree/main)
-
-Learning Rate Schedulers
-- [Cosine with Warmup](https://huggingface.co/sharren/vit-lr-cosine-warmup/tree/main)
-- [Cosine with Restarts ](https://huggingface.co/sharren/vit-lr-cosine-restarts/tree/main)
-- [Reduce LR on Plateau ](https://huggingface.co/sharren/vit-lr-reduce-plateau/tree/main)
-- [Step](https://huggingface.co/sharren/vit-lr-step/tree/main)
-
-Cleaned Dataset
-- [Removed Hair](https://huggingface.co/sharren/vit-ds-processed)
-
-Addressing Data Imbalance
-- [Data Augmentation](https://huggingface.co/sharren/vit-augmentation)
-- [Balanced Class Weighting](https://huggingface.co/sharren/vit-class-weight)
-
-Dropout 
-- [0.2](https://huggingface.co/sharren/vit-dropout-0.2)
-- [0.3](https://huggingface.co/sharren/vit-dropout-0.3)
-- [0.4](https://huggingface.co/sharren/vit-dropout-0.4)
--  [0.5](https://huggingface.co/sharren/vit-dropout-0.5)
-
-AdamW
- - Weight Decay 
-			 - [1e-2](https://huggingface.co/sharren/vit-weight-decay-1e-2)
-			 - [1e-3](https://huggingface.co/sharren/vit-weight-decay-1e-3)
-			 - [1e-4](https://huggingface.co/sharren/vit-weight-decay-1e-4)
-			 - [1e-5](https://huggingface.co/sharren/vit-weight-decay-1e-5)
- - Beta1
-			 - [0.85](https://huggingface.co/sharren/vit-beta1-0.85)
-			 -  [0.88](https://huggingface.co/sharren/vit-beta1-0.88)
-			 - [0.95](https://huggingface.co/sharren/vit-beta1-0.95)
- - Beta2
-			 - [0.99](https://huggingface.co/sharren/vit-beta2-0.99)
-			 - [0.995](https://huggingface.co/sharren/vit-beta2-0.995)
-			 -  [0.9995](https://huggingface.co/sharren/vit-beta2-0.9995)
- - Epsilon 
-			- [1e-9](https://huggingface.co/sharren/vit-epsilon-1e-9)
-			- [5e-9](https://huggingface.co/sharren/vit-epsilon-5e-9)
-			- [1e-7](https://huggingface.co/sharren/vit-epsilon-1e-7)
