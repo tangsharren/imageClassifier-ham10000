@@ -4,41 +4,41 @@
 
 Experiment Plan:
 1. **Initial Learning Rate Experiment:**
-Train ViT model separately with initial learning rates of **0.0001, 0.001, and 0.01** using the original dataset.
-Utilize a Cosine learning rate scheduler during training.
-Plot validation performance against learning rates to identify the optimal initial learning rate.
+- Train ViT model separately with initial learning rates of **0.0001, 0.001, and 0.01** using the original dataset.
+- Utilize a Cosine learning rate scheduler during training.
+- Plot validation performance against learning rates to identify the optimal initial learning rate.
 
 2. **Scheduler Comparison Experiment:** 
-Train models using different schedulers **(Cosine with Warmup, Cosine with Restarts, StepLR, ReduceLRonPlateau)** with the optimal initial learning rate
-Compare validation performance by plotting against learning rates for each scheduler.
+- Train models using different schedulers **(Cosine with Warmup, Cosine with Restarts, StepLR, ReduceLRonPlateau)** with the optimal initial learning rate
+- Compare validation performance by plotting against learning rates for each scheduler.
 
 3. **Data Preprocessing Experiments:**
-Train models with both the original dataset and a cleaned dataset (**hair noises removed**).
-Evaluate and compare performance between the two datasets.
+- Train models with both the original dataset and a cleaned dataset (**hair noises removed**).
+- Evaluate and compare performance between the two datasets.
 
 4. **Data Augmentation Experiment:**
-Apply data augmentation techniques to the optimal dataset.
-Train models with augmented data and compare performance with models trained without augmentation.
+- Apply data augmentation techniques to the optimal dataset.
+- Train models with augmented data and compare performance with models trained without augmentation.
 
 5. **Class Weighting Experiment:**
-Apply balanced class weights to the optimal dataset.
-Train models with class weighting and compare performance with models without weighting.
+- Apply balanced class weights to the optimal dataset.
+- Train models with class weighting and compare performance with models without weighting.
 
-6. **DropoutProbability Experiment** :
-Train models separately with different dropout probabilities (**0.2, 0.3, 0.4, 0.5**).
-Evaluate models and identify the optimal dropout rate.
+6. **Dropout Probability Experiment** :
+- Train models separately with different dropout probabilities (**0.2, 0.3, 0.4, 0.5**).
+- Evaluate models and identify the optimal dropout rate.
 
 7. **Weight Decay Experiment**:
-Train models separately with different weight decay values (**1e-2, 1e-3, 1e-4, 1e-5**).
-Evaluate models and identify the optimal weight decay value.
+- Train models separately with different weight decay values (**1e-2, 1e-3, 1e-4, 1e-5**).
+- Evaluate models and identify the optimal weight decay value.
 
 8. **Optimizer Parameters Experiment**:
-Train models separately with different values for **beta1 (0.85, 0.88, 0.95)** and **beta2 (0.99, 0.995, 0.9995)**.
-Evaluate models and identify the optimal values for beta1 and beta2.
+- Train models separately with different values for **beta1 (0.85, 0.88, 0.95)** and **beta2 (0.99, 0.995, 0.9995)**.
+- Evaluate models and identify the optimal values for beta1 and beta2.
 
 9. **Epsilon Experiment**:
-Train models separately with different epsilon values (**1e-9, 5e-9, 1e-7**).
-Evaluate models and identify the optimal epsilon value.
+- Train models separately with different epsilon values (**1e-9, 5e-9, 1e-7**).
+- Evaluate models and identify the optimal epsilon value.
 
 ***Early stopping** is employed: Stop training if there is no improvement in the evaluation metric (in this case, a decrease in validation loss) for 10 evaluation steps.*
 
