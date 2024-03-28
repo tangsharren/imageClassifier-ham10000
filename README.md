@@ -2,7 +2,7 @@
 
 Dataset used: [HAM10000](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T)
 
-After conducting 27 experiments to fine-tune various settings such as learning rate, augmentation techniques, weight decay rate, dropout rate, among others, the optimal configurations were identified for the Vision Transformer (ViT) model.
+After conducting 27 experiments to fine-tune various settings such as learning rate, scheduler, weight decay rate, dropout rate, among others, the optimal configurations were identified for the Vision Transformer (ViT) model.
 
 These optimal settings were then applied to train both ResNet50 and EfficientNetB7 models. Following the training process, the performance of all three models was rigorously evaluated to determine the most effective one.
 
