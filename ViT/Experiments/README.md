@@ -1,5 +1,5 @@
 
-# ViT Hyperparameter Tuning Experiments
+# Optimizing ViT Model Performance: Hyperparameter Tuning and Evaluation Experiments
 
 
 Experiment Plan:
