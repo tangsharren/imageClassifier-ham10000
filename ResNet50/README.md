@@ -1,4 +1,4 @@
-The EfficientNet model was trained using the TensorFlow framework and optimized settings identified from previous experiments with ViT models. 
+The ResNet50 model was trained using the TensorFlow framework and optimized settings identified from previous experiments with ViT models. 
 
 The best model configuration includes:
 - Learning Rate: 1e-4
