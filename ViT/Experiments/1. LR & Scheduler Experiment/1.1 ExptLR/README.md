@@ -1,5 +1,5 @@
 
-1. **Initial Learning Rate Experiment:**
+**Initial Learning Rate Experiment:**
 
 Train ViT model separately with initial learning rates of **0.0001, 0.001, and 0.01** using the original dataset.
 
